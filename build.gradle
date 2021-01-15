@@ -1,0 +1,23 @@
+plugins {
+	id 'java'
+	id "com.github.johnrengelman.shadow" version "6.1.0"
+}
+
+group = 'org.apache.solr'
+//artifactId = 'binsolr-zeppelin' What's the property name here?
+version = '0.0.1'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.apache.solr:solr-solrj:8.7.0'
+	compile 'org.apache.solr:solr-core:8.7.0' // Needed for SolrCLI and ToolBase
+	compile 'commons-cli:commons-cli:1.4'
+}
+
+test {
+	useJUnitPlatform()
+}

@@ -1,0 +1,18 @@
+[
+    {
+      "name": "zeppelin-tool",
+      "description": "Allows management of a Zeppelin sandbox through bin/solr CLI",
+      "versions": [
+        {
+          "version": "0.1",
+          "date": "2021-01-15",
+          "artifacts": [
+            {
+              "url": "zeppelin-tool-0.1.jar",
+              "sig": "rZ1LaUyDtHEBeXB0yo5qx3PJOGCqqNdJxJ0WH12wuDNsP6AGu3YwHiI+dxu9X/6Nb47EAOd/FovqT6CduaGzPQ=="
+            }
+          ]
+        }
+      ]
+    }
+  ]
